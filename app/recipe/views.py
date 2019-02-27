@@ -6,6 +6,7 @@ from core.models import Tag, Ingredient
 
 from recipe import serializers
 
+
 class BaseRecipeAttrViewSet(viewsets.GenericViewSet,
                             mixins.ListModelMixin,
                             mixins.CreateModelMixin):
